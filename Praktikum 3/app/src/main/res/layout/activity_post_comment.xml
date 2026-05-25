@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etKomentar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tulis komentar Anda..."
+        android:minLines="3"
+        android:gravity="top" />
+
+    <Button
+        android:id="@+id/btnKirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF8C00"
+        android:text="KIRIM" />
+
+    <Button
+        android:id="@+id/btnKirimLain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FFB347"
+        android:text="KIRIM VIA APP LAIN" />
+</LinearLayout>

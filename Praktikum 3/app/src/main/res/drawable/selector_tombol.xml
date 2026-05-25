@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  ini adalah wadah utamanya (State List Drawable) -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Ini adalah kondisi saat dipencetnya (state_pressed="true") -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#4CAF50" /> <!-- Warna Hijau -->
+            <corners android:radius="100dp" /> <!-- Bentuk Oval -->
+        </shape>
+    </item>
+
+    <!-- ini adalah kondisi default (Saat tidak dipencet) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#2196F3" /> <!-- Warna Biru -->
+            <corners android:radius="0dp" /> <!-- Bentuk Kotak -->
+        </shape>
+    </item>
+
+</selector>
